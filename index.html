@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./diseño.css" />
+    <title>Simpsons</title>
+  </head>
+  <body>
+    <img class="logo" src="Images/logo.png" alt="Logo">
+    <div class="spacer"></div>
+     <!-- Formulario con campo de búsqueda -->
+    <form id="searchForm">
+      <input type="text" id="searchInput" name="searchInput" placeholder="Escriba aquí el nombre (no de enter)" />
+    </form><br>
+    <div class="container" id="container">
+        <!-- Contenedores se añadirán aquí -->
+    </div>
+    <button id="cargarMas">Cargar Más</button>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div id="modalText">
+          <!-- Aquí se mostrará la información del personaje -->
+        </div>
+        <button id="closeButton">Cerrar</button> <!-- Nuevo botón de cierre -->
+      </div>
+    </div>
+    <script src="./funcion.js"></script>
+  </body>
+</html>
