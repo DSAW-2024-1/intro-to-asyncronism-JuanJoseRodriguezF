@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   `;
 
                   // Cambia el fondo de la ventana modal
-                  modal.style.backgroundColor = 'gray';
+                  modal.style.backgroundImage = 'url("Images/fondo.jpg")';
 
                   // Muestra la ventana modal
                   modal.style.display = 'block';
